@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'harry_potter';
+    src: url('HARRYP__.ttf');
+}
+
+.cabecalho{
+    font-family:'harry_potter';
+    font-size: 40px;
+    text-align: center;
+    padding: 1%;
+    color: gold;
+    text-shadow: 7px 7px 5px #000000;
+    -webkit-text-stroke: 0.1px rgb(0, 0, 0);
+    background: rgb(96,8,182);
+    background: linear-gradient(0deg, rgb(40, 53, 89) 0%, rgb(136, 158, 228) 100%);
+}
+
+.busca{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: rgb(96,8,182);
+    background: linear-gradient(0deg, rgb(181, 199, 250) 0%, rgb(40, 53, 89) 100%);
+}
+
+.rodape{
+    font-family:cursive;
+    font-size: 18px;
+    padding: 1.2% 0;
+    background: rgb(96,8,182);
+    background: linear-gradient(0deg, rgb(40, 53, 89) 0%, rgb(136, 158, 228) 100%);
+    text-align: center;
+    color: rgb(251, 255, 0);
+    font-weight: bold;
+    -webkit-text-stroke: 1px black;
+    display: flex;
+    flex-direction: row;
+    justify-content:left;
+}
+
+.form-busca{
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+
+#first-buts{
+    font-weight: bold;
+    font-size: 15px;
+    padding: 1%;
+    background: rgb(254,255,7);
+    background: radial-gradient(circle, rgba(254,255,7,1) 0%, rgb(135, 108, 20) 93%);
+    color:rgb(81, 60, 7)
+}
+#first-buts:hover{
+    background-color: black;
+    background: rgb(254,255,7);
+    background: radial-gradient(circle, rgb(0, 187, 255) 0%, rgb(18, 67, 146) 93%);
+    color: white;
+}
+#first-buts:active{
+    background-color: black;
+    background: rgb(254,255,7);
+    background: radial-gradient(circle, rgb(0, 187, 255) 0%, rgb(180, 250, 255)93%);
+    color: white;
+}
+
+#titulo{
+    font-size: 60px;
+    font-family: "harry_potter";
+    text-align: center;
+}
+
+.lista{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-size: 20px;
+    /* margin: 10px; */
+}
+
+.lista > section{
+    background-image: url('pergaminho.png');
+    background-size: 100%;
+    height: 536px;
+    max-width: 400px;
+    margin: 10px;
+    padding: 4% 5%;
+}
+
+.naveg{
+    background: rgb(255,255,134);
+    background: radial-gradient(circle, rgb(188, 226, 255) 0%, rgb(21, 21, 21) 100%);
+}
+
+.image{
+    max-width: 80%;
+    max-height: auto;
+    margin-left: 10%;
+    margin-top: 5%;
+}
