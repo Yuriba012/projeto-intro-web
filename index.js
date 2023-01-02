@@ -12,7 +12,7 @@ criatura1 = {
 criatura2 = {
   nome: "Hipogrifo",
   habitat: "Campos abertos (Europa)",
-  alturaMedia: 2.5,
+  alturaMedia: 2.0,
   domesticavel: true,
   habilidades: ["Vôo", "velocidade", "força"],
 };
