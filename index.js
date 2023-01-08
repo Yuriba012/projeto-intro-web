@@ -7,6 +7,7 @@ criatura1 = {
   habitat: "Floresta Proibida",
   alturaMedia: 2.1,
   domesticavel: false,
+  figura: 'centauro.jpg',
   habilidades: ["Cura", "arco e flecha", "adivinhação", "velocidade", "força"],
 };
 criatura2 = {
@@ -14,6 +15,7 @@ criatura2 = {
   habitat: "Campos abertos (Europa)",
   alturaMedia: 2.0,
   domesticavel: true,
+  figura: 'hipogrifo.jpg',
   habilidades: ["Vôo", "velocidade", "força"],
 };
 criatura3 = {
@@ -21,6 +23,7 @@ criatura3 = {
   habitat: "Florestas",
   alturaMedia: 2.4,
   domesticavel: true,
+  figura: 'testralio.jfif',
   habilidades: ["Vôo", "invisibilidade"],
 };
 criatura4 = {
@@ -28,6 +31,7 @@ criatura4 = {
   habitat: "Arbustos de espinhos nas florestas",
   alturaMedia: 0.4,
   domesticavel: true,
+  figura: 'agoureiro.jpg',
   habilidades: ["Vôo", "previsão de chuvas"],
 };
 criatura5 = {
@@ -35,6 +39,7 @@ criatura5 = {
   habitat: "Casas de antigas famílias de bruxos",
   alturaMedia: 0.9,
   domesticavel: true,
+  figura: 'elfo-domestico.jpg',
   habilidades: ["Conjurar feitiços sem uma varinha", "aparatar"],
 };
 criatura6 = {
@@ -42,6 +47,7 @@ criatura6 = {
   habitat: "Picos de montanhas",
   alturaMedia: 1.0,
   domesticavel: true,
+  figura: 'fenix.jpg',
   habilidades: ["Lágrimas curativas", "renascer", "aparatar", "vôo"],
 };
 criatura7 = {
@@ -49,6 +55,7 @@ criatura7 = {
   habitat: "Florestas da Tanzânia - África Oriental",
   alturaMedia: 3.0,
   domesticavel: false,
+  figura: 'nundu.jpg',
   habilidades: ["Respiração tóxica", "velocidade", "força"],
 };
 criatura8 = {
@@ -56,6 +63,7 @@ criatura8 = {
   habitat: "Desconhecido",
   alturaMedia: 6.0,
   domesticavel: false,
+  figura: 'basilisco.jpg',
   habilidades: ["Veneno mortal", "petrificação", "força"],
 };
 //Função que insere um a criatura na lista de criaturas,
