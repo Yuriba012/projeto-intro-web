@@ -6,8 +6,8 @@
 }
 
 @font-face {
-    font-family: 'harry_potter';
-    src: url('HARRYP__.ttf');
+    font-family: 'HARRYP__';
+    src: url('./HARRYP__.TTF');
 }
 
 .container{
@@ -17,7 +17,7 @@
 }
 
 .cabecalho{
-    font-family:'harry_potter';
+    font-family:'HARRYP__';
     font-size: 2.5rem;
     text-align: center;
     padding: 1%;
@@ -29,7 +29,7 @@
 }
 
 h1{
-    font-family:'harry_potter';   
+    font-family:'HARRYP__';   
 }
 
 .busca{
@@ -128,7 +128,7 @@ h1{
 
 #titulo{
     font-size: 60px;
-    font-family: "harry_potter";
+    font-family: "HARRYP__";
     color: black;
     list-style-type: none;
 }
