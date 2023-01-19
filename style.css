@@ -93,7 +93,7 @@ h1{
     background-repeat: repeat;
     color:rgb(81, 60, 7);
     border-radius: 50px;
-    box-shadow: 2px 2px 5px black;
+    box-shadow: 2px 5px 5px black;
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-items: center;
@@ -102,6 +102,7 @@ h1{
     width: 45vw;
     min-width: 500px;
     padding: 0rem 2rem;
+    border: 1px solid rgb(81, 60, 7); 
 }
 
 .main{
@@ -116,6 +117,8 @@ h1{
     width: auto;
     border-radius: 50px;
     justify-self: flex-end;
+    border: 2px solid rgb(81, 60, 7);
+    box-shadow: 4px 5px 4px rgb(81, 60, 7);
 }
 
 .card > ul{
